@@ -7,11 +7,9 @@ const Meetourexperts = () => {
   const router = useRouter()
   const canonicalUrl = (`https://cdrassesmenthelp.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
 
-  const dataList=[{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`},{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`},{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`},{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`}
-,{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`},{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`},{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`}
-,{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`},{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`},{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`},{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`}
-,{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`},{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`}
-,{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`},{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`},{image:"/images/agents/female.png",title:`Neha Karki`,alt:`agents`}]
+  const dataList=[{image:"/images/agents/atul.png",title:`Atulya Sharma`,alt:`agents`,buttonText:`Talk with Atulya`,fblink:"https://www.facebook.com/cdrassessmenthelp",lnlink:"https://www.linkedin.com/feed/",instalink:"https://www.instagram.com/cdrassessmenthelp01/?hl=en"}
+  ,{image:"/images/agents/hazel.png",title:`Hazel Sharma`,alt:`agents`,buttonText:`Talk with Hazel`,fblink:"https://www.facebook.com/profile.php?id=100080589983121"},{image:"/images/agents/alina.png",title:`Alina Malla`,alt:`agents`,buttonText:`Talk with Alina`,fblink:"https://www.facebook.com/profile.php?id=100080601712964"},{image:"/images/agents/sofia.png",title:`Sofia Sharma`,alt:`agents`,buttonText:`Talk with Sofia`,fblink:"https://www.facebook.com/profile.php?id=100080681929327"}
+,]
   return (
     <div>
 <Head>
@@ -35,14 +33,14 @@ const Meetourexperts = () => {
              <strong>{d.title} </strong>
              <p style={{color:"#666",textDecoration:"underline" ,textDecorationColor:"#970012",textDecorationThickness:"2px"}}>CDR Agent</p>
              <Row  className="">
-               <img src="/images/agents/fb.png" alt="Facebook" className='img-fluid' style={{height:"28px",width:"50px"}}/>
-               <img src="/images/agents/tweet.png" alt="Facebook" className='img-fluid' style={{height:"28px",width:"50px"}}/>
-               <img src="/images/agents/link.png" alt="Facebook" className='img-fluid' style={{height:"28px",width:"50px"}}/>
-               <img src="/images/agents/insta.png" alt="Facebook" className='img-fluid' style={{height:"28px",width:"50px"}}/>
+               <a style={{height:"28px",width:"50px"}} href={d.fblink}><img src="/images/agents/fb.png" alt="Facebook" className='img-fluid'  /></a>
+              
+               <a style={{height:"28px",width:"50px"}} href={d.lnlink}><img src="/images/agents/link.png" alt="linkdin" className='img-fluid' style={{height:"28px",width:"50px"}}/></a>
+               <a style={{height:"28px",width:"50px"}} href={d.instalink}><img src="/images/agents/insta.png" alt="instagram" className='img-fluid' style={{height:"28px",width:"50px"}}/></a>
              </Row>
              <Button style={{color:"#970012",backgroundColor:"#DFDFDF" ,marginTop:"15px",border:"none",borderRadius:"5px",marginBottom:"10px"}}>
                 <a href='https://api.whatsapp.com/send?phone=61482072481' style={{color:"black",textDecoration:'none'}}>
-                <strong><WhatsAppIcon/> Talk with Anna </strong>
+                <strong><WhatsAppIcon/> {d.buttonText}</strong>
 
                 </a>
 
