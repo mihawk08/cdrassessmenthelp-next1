@@ -2715,7 +2715,7 @@ description:`Your draft of CDR may contain errors in various aspects. Our CDR
 reviewing service suggests the best ways to present your skills, 
 knowledge, qualification and experience in writing for the approval 
 of Engineers Australia. `,
-image: `/images/specificanzsco/electricalDraft.png`,
+image: `/images/specificanzsco/electricaldraft.png`,
 
 unitGroupTitle1:`ANZSCO Code 312311.`,
 unitGroupTitle2:`ANZSCO 312311 Electrical Engineering Draftsperson.
@@ -2847,7 +2847,7 @@ description:`Your draft of CDR may contain errors in various aspects. Our CDR
 reviewing service suggests the best ways to present your skills, 
 knowledge, qualification and experience in writing for the approval 
 of Engineers Australia. `,
-image: `/images/specificanzsco/electricalDraft.png`,
+image: `/images/specificanzsco/eetech.png`,
 
 unitGroupTitle1:`ANZSCO Code 312312..`,
 unitGroupTitle2:`ANZSCO 312312 Electrical Engineering Technician.
@@ -3659,7 +3659,7 @@ tasks={allData.materialsEngineer.tasks}/>
             skillAssessmentDescription={allData.engineeringManager.skillAssessmentDescription} visaProvisionTitle={allData.engineeringManager.visaProvisionTitle}
             visaProvisionDescription={allData.engineeringManager.visaProvisionDescription}/>
             <Anz3 occupationListTitle={allData.engineeringManager.occupationListTitle} occupationList={allData.engineeringManager.occupationList} 
-            visaProvisionTitle2={allData.engineeringManager.visaProvisionTitle2}
+            
             visaProvisionDescription2={allData.visaProvisionDescription2}/>
             <Anz4  skillLevelTitle2={allData.engineeringManager.skillLevelTitle2}
             skillLevelDescription2={allData.engineeringManager.skillLevelDescription2}/>
@@ -3770,7 +3770,7 @@ tasks={allData.electronicsEngineer.tasks}/>
             skillLevelTitle={allData.miningEngineer.skillLevelTitle} skillLevelDescription={allData.miningEngineer.skillLevelDescription}
             specializationsTitle={allData.miningEngineer.specializationsTitle} specializationsList={allData.miningEngineer.specializationsList}
             skillAssessmentTitle={allData.miningEngineer.skillAssessmentTitle}
-            skillAssessmentDescription={allData.miningEngineer.skillAssessmentDescription} visaProvisionTitle={allData.miningEngineer.visaProvisionTitle}
+            skillAssessmentDescription={allData.miningEngineer.skillAssanzsco-233612-petroleum-engineeressmentDescription} visaProvisionTitle={allData.miningEngineer.visaProvisionTitle}
             visaProvisionDescription={allData.miningEngineer.visaProvisionDescription}/>
             <Anz3 occupationListTitle={allData.miningEngineer.occupationListTitle} occupationList={allData.miningEngineer.occupationList} 
             visaProvisionTitle2={allData.miningEngineer.visaProvisionTitle2}
@@ -3913,7 +3913,7 @@ tasks={allData.navalArchitect.tasks}/>
 
           
           {anzsco==="anzsco-233913-biomedical-engineer" && <>
-          <Anz1 title={allData.biomedicalEngineer.title} description={allData.biomedicalEngineer.description}/>
+          <Anz1 title={allData.biomedicalEngineer.title} description={allData.biomedicalEngineer.description} image={allData.biomedicalEngineer.image} />
             <Anz2 unitGroupTitle1={allData.biomedicalEngineer.unitGroupTitle1} 
             unitGroupTitle2={allData.biomedicalEngineer.unitGroupTitle2} 
             unitGroupTitle2Description={allData.biomedicalEngineer.unitGroupTitle2Description}
@@ -3951,7 +3951,7 @@ tasks={allData.biomedicalEngineer.tasks}/>
            
 
           {anzsco==="anzsco-233914-engineering-technologist" && <>
-          <Anz1 title={allData.engineeringTechnologist.title} description={allData.engineeringTechnologist.description}/>
+          <Anz1 title={allData.engineeringTechnologist.title} description={allData.engineeringTechnologist.description} image={allData.engineeringTechnologist.image}/>
             <Anz2 unitGroupTitle1={allData.engineeringTechnologist.unitGroupTitle1} 
             unitGroupTitle2={allData.engineeringTechnologist.unitGroupTitle2} 
             unitGroupTitle2Description={allData.engineeringTechnologist.unitGroupTitle2Description}
@@ -3988,7 +3988,7 @@ tasks={allData.engineeringTechnologist.tasks}/>
           </> }
 
           {anzsco==="anzsco-233915-environmental-engineer" && <>
-          <Anz1 title={allData.environmentalEngineer.title} description={allData.environmentalEngineer.description}/>
+          <Anz1 title={allData.environmentalEngineer.title} description={allData.environmentalEngineer.description} image={allData.environmentalEngineer.image}/>
             <Anz2 unitGroupTitle1={allData.environmentalEngineer.unitGroupTitle1} 
             unitGroupTitle2={allData.environmentalEngineer.unitGroupTitle2} 
             unitGroupTitle2Description={allData.environmentalEngineer.unitGroupTitle2Description}
@@ -4291,7 +4291,7 @@ tasks={allData.plantEngineer.tasks}/>
           </> }
 
           {anzsco==="anzsco-233999-engineering-professionals-nec" && <>
-          <Anz1 title={allData.engineeringProfessionals.title} description={allData.engineeringProfessionals.description}/>
+          <Anz1 title={allData.engineeringProfessionals.title} description={allData.engineeringProfessionals.description} image={allData.engineeringProfessionals.image}/>
             <Anz2 unitGroupTitle1={allData.engineeringProfessionals.unitGroupTitle1} 
             unitGroupTitle2={allData.engineeringProfessionals.unitGroupTitle2} 
             unitGroupTitle2Description={allData.engineeringProfessionals.unitGroupTitle2Description}

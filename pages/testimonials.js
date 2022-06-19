@@ -1,12 +1,14 @@
 import React from 'react'
-import { Col, Container, Row } from 'react-bootstrap'
+import { Button, Col, Container, Row } from 'react-bootstrap'
 import Headings from '../Components/Headings'
 import Paragraphs from '../Components/Paragraphs'
 import {useRouter} from 'next/router'
 import  Head  from 'next/head';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
 
+
 const CustomerTestimonial = () => {
+  
   const router = useRouter()
   const canonicalUrl = (`https://cdrassesmenthelp.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
 
@@ -68,6 +70,8 @@ James Cruff
   </Col>
 </Row>
 
+
+
 <img src="images/testimonials/jessi.png" alt="testimonials" className='img-fluid desktopScreen' style={{height:"130px",width:"300px"}}/>
         
         <Row className='ps-md-5 ms-md-5'>
@@ -79,6 +83,17 @@ James Cruff
           )} 
          
         </Row>
+
+       <div className='d-flex justify-content-center'>
+        
+        <Button style={{background:"#970012",border:"none"}} className=""
+        onClick={()=>router.push("/alltestimonials")}>
+ 
+            View More Reviews
+        </Button>
+        
+        </div>  
+
       </Container>
 
       <img src="/images/testimonials/men.png" alt="Customer Testimonials" className='img-fluid' />

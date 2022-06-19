@@ -284,7 +284,7 @@ like you, we have kept the prices appropriately." align="dkf"/>
         <Row>
         <Col xs={6} className='px-1'>
           <div style={{backgroundColor:"#753CAD",borderRadius:'10px'}}>
-            <img src="images/Pricing/premium.png" alt="basic pricing" className='img-fluid'/>
+            <img src="images/Pricing/premium.png" alt="basic pricing" className='img-fluid' />
               <div style={{paddingTop:'35px'}}>
               <h3 style={{color:"#fff",fontWeight:"700",textAlign:"center",fontSize:'20px'}} className="pb-0">COMPREHENSIVE</h3> 
               <div className='d-flex justify-content-center'><div style={{color:"#fff",fontWeight:"700",textAlign:"center",display:'flex'}} className="py-2"><div style={{fontSize:'18px'}}>$</div ><span style={{fontSize:'45px'}}>975</span> </div>  </div>
