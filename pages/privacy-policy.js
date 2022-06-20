@@ -11,6 +11,7 @@ const PrivacyPolicy = () => {
 
   return (
     <div>
+       
        <Head>
         <title>Privacy Policy | CDR Assessment Help</title>
         <meta name="description" content="Privacy Policy | CDR Assessment Help" />

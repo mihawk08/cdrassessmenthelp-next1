@@ -3585,9 +3585,8 @@ Specialists. ANZSCO 313212PR Visa for Telecommunications Field Engineer." />
             skillAssessmentTitle={allData.chemicalEngineer.skillAssessmentTitle}
             skillAssessmentDescription={allData.chemicalEngineer.skillAssessmentDescription} visaProvisionTitle={allData.chemicalEngineer.visaProvisionTitle}
             visaProvisionDescription={allData.chemicalEngineer.visaProvisionDescription}/>
-            <Anz3 occupationListTitle={allData.chemicalEngineer.occupationListTitle} occupationList={allData.chemicalEngineer.occupationList} 
-            visaProvisionTitle2={allData.chemicalEngineer.visaProvisionTitle2}
-            visaProvisionDescription2={allData.chemicalEngineer.visaProvisionDescription2}/>
+            <Anz3 occupationListTitle={allData.chemicalEngineer.occupationListTitle} occupationList={allData.chemicalEngineer.occupationList} />
+            
             <Anz4  skillLevelTitle2={allData.chemicalEngineer.skillLevelTitle2}
             skillLevelDescription2={allData.chemicalEngineer.skillLevelDescription2}/>
            
@@ -3658,9 +3657,9 @@ tasks={allData.materialsEngineer.tasks}/>
             skillAssessmentTitle={allData.engineeringManager.skillAssessmentTitle}
             skillAssessmentDescription={allData.engineeringManager.skillAssessmentDescription} visaProvisionTitle={allData.engineeringManager.visaProvisionTitle}
             visaProvisionDescription={allData.engineeringManager.visaProvisionDescription}/>
-            <Anz3 occupationListTitle={allData.engineeringManager.occupationListTitle} occupationList={allData.engineeringManager.occupationList} 
+            <Anz3 occupationListTitle={allData.engineeringManager.occupationListTitle} occupationList={allData.engineeringManager.occupationList} />
             
-            visaProvisionDescription2={allData.visaProvisionDescription2}/>
+         
             <Anz4  skillLevelTitle2={allData.engineeringManager.skillLevelTitle2}
             skillLevelDescription2={allData.engineeringManager.skillLevelDescription2}/>
            

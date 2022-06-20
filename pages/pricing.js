@@ -15,6 +15,7 @@ const Pricing = () => {
   return (
     <div>
 <Head>
+  
         <title>Pricing | CDR Assessment Help</title>
         <meta name="description" content="Pricing | CDR Assessment Help" />
         <link rel="canonical" href={canonicalUrl} />

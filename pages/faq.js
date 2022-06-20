@@ -36,6 +36,7 @@ const FAQ = () => {
   return (
     <div className="position-relative">
        <Head>
+        
       <title>FAQ | CDR Assessment Help</title>
       <meta name='description' content='FAQ | CDR Assessment Help'/>
       <link rel="canonical" href={canonicalUrl} />

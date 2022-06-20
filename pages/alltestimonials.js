@@ -1,9 +1,14 @@
+import Head from 'next/head'
+import { useRouter } from 'next/router'
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import Headings from '../Components/Headings'
 import Paragraphs from '../Components/Paragraphs'
 
+
 const alltestimonials = () => {
+  const router=useRouter();
+  const canonicalUrl = (`https://cdrassesmenthelp.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
   const dataList=[{image:`/images/alltestimonials/lucas.png`, data:`Finally got my CDR accepted. Thank you 
   CDRassessmenthellp and team for quality 
   work.`,name:`Lucas Taylor`, short:`LT`}
@@ -77,6 +82,11 @@ const alltestimonials = () => {
   come true.`,name:`Yusuf Baqri`, short:`YB`}]
   return (
     <div>
+      <Head>
+      <title>Testimonials | CDR Assessment Help</title>
+        <meta name="description" content="Testimonials | CDR Assessment Help"/>
+        <link rel="canonical" href={canonicalUrl} />
+      </Head>
         <Container>
 
         <Headings title="Testimonials"/>

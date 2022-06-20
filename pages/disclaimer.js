@@ -16,6 +16,7 @@ const Disclaimer = () => {
       <meta name='description' content='Disclaimer |  CDR Assessment Help'/>
       <link rel="canonical" href={canonicalUrl} />
       </Head>
+      
       <Container>
       <div className="pt-5 m-1">
           

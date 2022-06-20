@@ -46,6 +46,16 @@ const Ordernow = () => {
   };
   return (
     <div>
+       <Head>
+        <title >Order Now | CDR Assessment Help</title>
+        <meta name="description" content="Order Now | CDR Assessment Help" />
+        <link rel="canonical" href={canonicalUrl} />
+
+      </Head>
+
+
+
+
      <Container>
         <Row>
           <Col md={6} className="p-md-5">
