@@ -8,6 +8,8 @@ import  Head  from 'next/head';
 
 
 const Ordernow = () => {
+  
+  
   const [activeForm,setActiveForm]=useState("first")
   const form = useRef();
   const router = useRouter();
@@ -46,13 +48,7 @@ const Ordernow = () => {
   };
   return (
     <div>
-       <Head>
-        <title >Order Now | CDR Assessment Help</title>
-        <meta name="description" content="Order Now | CDR Assessment Help" />
-        <link rel="canonical" href={canonicalUrl} />
-
-      </Head>
-
+     
 
 
 

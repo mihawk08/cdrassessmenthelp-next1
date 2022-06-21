@@ -15,7 +15,7 @@ const Pricing = () => {
   return (
     <div>
 <Head>
-  
+
         <title>Pricing | CDR Assessment Help</title>
         <meta name="description" content="Pricing | CDR Assessment Help" />
         <link rel="canonical" href={canonicalUrl} />
@@ -32,8 +32,8 @@ like you, we have kept the prices appropriately." align="dkf"/>
 
           
         <Col md={3} xs={6} className='px-1'>
-          <div style={{backgroundColor:"#E79E54",borderRadius:'10px'}}>
-            <img src="images/Pricing/basic.png" alt="basic pricing" className='img-fluid'/>
+          <div style={{backgroundColor:"#E79E54",borderRadius:'10px',height:"500px"}}>
+            <img src="images/Pricing/basic.png" alt="basic pricing" className='img-fluid' style={{height:"320px"}} />
               <div style={{marginTop:"-40px"}}>
               <h3 style={{color:"#fff",fontWeight:"700",textAlign:"center",fontSize:'20px'}} className="pb-0">BASIC</h3> 
               <div className='d-flex justify-content-center'><div style={{color:"#fff",fontWeight:"700",textAlign:"center",display:'flex'}} className="py-2"><div style={{fontSize:'18px'}}>$</div ><span style={{fontSize:'45px'}}>475</span> </div>  </div>
@@ -83,8 +83,8 @@ like you, we have kept the prices appropriately." align="dkf"/>
 {secondActive==="second" ?
 
         <Col md={3} xs={6} className='px-1'>
-          <div style={{backgroundColor:"#38A559",borderRadius:'10px'}}>
-            <img src="images/Pricing/extended.png" style={{marginTop:"43px"}} alt="basic pricing" className='img-fluid'/>
+          <div style={{backgroundColor:"#38A559",borderRadius:'10px',height:"500px"}}>
+            <img src="images/Pricing/extended.png" style={{marginTop:"43px",width:"240px"}} alt="basic pricing" className='img-fluid ms-5 pt-5'/>
               <div style={{padding:"50px 10px 0px 10px"}}>
               <h3 style={{color:"#fff",fontWeight:"700",textAlign:"center",fontSize:'20px'}} className="pb-0">STANDARD</h3> 
               <div className='d-flex justify-content-center'><div style={{color:"#fff",fontWeight:"700",textAlign:"center",display:'flex'}} className="py-2"><div style={{fontSize:'18px'}}>$</div ><span style={{fontSize:'45px'}}>675</span> </div>  </div>
@@ -134,8 +134,8 @@ like you, we have kept the prices appropriately." align="dkf"/>
 
 {thirdActive==="third"  ?
         <Col md={3} xs={6} className='px-1'>
-          <div style={{backgroundColor:"#753CAD",borderRadius:'10px'}}>
-            <img src="images/Pricing/premium.png" alt="basic pricing" className='img-fluid'/>
+          <div style={{backgroundColor:"#753CAD",borderRadius:'10px',height:"500px"}}>
+            <img src="images/Pricing/premium.png" alt="basic pricing" className='img-fluid ms-5' style={{width:"200px",height:"250px",paddingTop:"40px"}}/>
               <div style={{paddingTop:'35px'}}>
               <h3 style={{color:"#fff",fontWeight:"700",textAlign:"center",fontSize:'20px'}} className="pb-0">COMPREHENSIVE</h3> 
               <div className='d-flex justify-content-center'><div style={{color:"#fff",fontWeight:"700",textAlign:"center",display:'flex'}} className="py-2"><div style={{fontSize:'18px'}}>$</div ><span style={{fontSize:'45px'}}>975</span> </div>  </div>
@@ -187,8 +187,8 @@ like you, we have kept the prices appropriately." align="dkf"/>
 {fourthActive==="fourth"  ?
 
         <Col md={3} xs={6} className='px-1'>
-          <div style={{backgroundColor:"#CF4D30",borderRadius:'10px'}}>
-            <img src="images/Pricing/royal.png" style={{height:'246px',marginLeft:'20px'}} alt="basic pricing" className='img-fluid'/>
+          <div style={{backgroundColor:"#CF4D30",borderRadius:'10px',height:"500px"}}>
+            <img src="images/Pricing/royal.png" style={{height:'250px',marginLeft:'60px',paddingTop:"60px"}} alt="basic pricing" className='img-fluid'/>
               <div style={{paddingTop:'35px'}}>
               <h3 style={{color:"#fff",fontWeight:"700",textAlign:"center",fontSize:'20px'}} className="pb-0">EVERYTHING PLUS</h3> 
               <div className='d-flex justify-content-center'><div style={{color:"#fff",fontWeight:"700",textAlign:"center",display:'flex'}} className="py-2"><div style={{fontSize:'18px'}}>$</div ><span style={{fontSize:'45px'}}>1275</span> </div>  </div>
@@ -244,6 +244,9 @@ like you, we have kept the prices appropriately." align="dkf"/>
         </Row>
         <div className='mobileScreen'>
           <Row className='mb-3 '>
+
+{firstActive==="first"   ?
+
           <Col  xs={6} className='px-1'>
           <div style={{backgroundColor:"#E79E54",borderRadius:'10px'}}>
             <img src="images/Pricing/basic.png" alt="basic pricing" className='img-fluid' />
@@ -262,9 +265,41 @@ like you, we have kept the prices appropriately." align="dkf"/>
                  Buy Now
               </Button>
         </Col>
+
+         :
+
+         <Col>
+             <div style={{backgroundColor:"#E79E54",borderRadius:'10px',height:"400px",width:"180px"}}>
+           
+           <Button 
+              onClick={()=>setFirstActive("first")}
+              style={{background:"#FFD0A1" ,color:"#fff",paddingRight:"40px",paddingLeft:"40px",border:"none",fontWeight:"500"}}>
+                <strong>Close Features</strong>
+              </Button>
+
+              <ul style={{color:"#fff",fontSize:"14px", alignItems:"center"}} className="pt-5">
+              <li>3 Career Episode</li>
+              <li>Summary Statement</li>
+              <li>CPD</li>
+              <li>Delivery Date</li>
+              <li>Quality Assured</li>
+              <li>Plagiarism Free Reports</li>
+              <li>Professional Writers</li>
+              <li>File Status Update</li>
+              <li>Handling Unlimited</li>
+              <li>Comments from EA</li>
+              <li>Review of CLients Project</li>
+            </ul>
+
+
+           </div>
+         </Col>
+}
+
+{secondActive==="second"   ?  
         <Col xs={6} className='px-1'>
-          <div style={{backgroundColor:"#38A559",borderRadius:'10px'}}>
-            <img src="images/Pricing/extended.png" style={{marginTop:"43px",marginLeft:'20px',height:'80px'}} alt="basic pricing" className='img-fluid'/>
+          <div style={{backgroundColor:"#38A559",borderRadius:'10px',height:"400px"}}>
+            <img src="images/Pricing/extended.png" style={{marginTop:"43px",marginLeft:'30px',height:'100px'}} alt="basic pricing" className='img-fluid pt-3'/>
               <div style={{padding:"14px 10px 0px 10px"}}>
               <h3 style={{color:"#fff",fontWeight:"700",textAlign:"center",fontSize:'20px'}} className="pb-0">STANDARD</h3> 
               <div className='d-flex justify-content-center'><div style={{color:"#fff",fontWeight:"700",textAlign:"center",display:'flex'}} className="py-2"><div style={{fontSize:'18px'}}>$</div ><span style={{fontSize:'45px'}}>675</span> </div>  </div>
@@ -272,7 +307,7 @@ like you, we have kept the prices appropriately." align="dkf"/>
               </div>
           </div>
           <Button 
-          onClick={()=>setFirstActive("")}
+          onClick={()=>setSecondActive("")}
           style={{color:"#fff",outline:"none",background:"#49B068",fontWeight:"500",border:"#fff",width:'100%',marginTop:'-50px'}}>
             View Features
           </Button>
@@ -280,12 +315,40 @@ like you, we have kept the prices appropriately." align="dkf"/>
                  Buy Now
               </Button>
         </Col>
-          </Row>
+          :
+
+          <Col>
+          <div style={{backgroundColor:"#38A559",borderRadius:'10px',height:"400px",width:"180px"}}>
+        
+        <Button 
+           onClick={()=>setSecondActive("second")}
+           style={{background:"#49B068" ,color:"#fff",paddingRight:"40px",paddingLeft:"40px",border:"none",fontWeight:"500"}}>
+             <strong>Close Features</strong>
+           </Button>
+
+           <ul style={{color:"#fff",fontSize:"14px", alignItems:"center"}} className="pt-5">
+           <li>3 Career Episode</li>
+           <li>Summary Statement</li>
+           <li>CPD</li>
+           <li>Delivery Date</li>
+           <li>Quality Assured</li>
+           <li>Plagiarism Free Reports</li>
+           <li>Professional Writers</li>
+           <li>File Status Update</li>
+           <li>Handling Unlimited</li>
+           <li>Comments from EA</li>
+           <li>Review of CLients Project</li>
+         </ul>
+
+
+        </div>
+      </Col>
+}
       
-        <Row>
+     {thirdActive==="third"  ?     
         <Col xs={6} className='px-1'>
-          <div style={{backgroundColor:"#753CAD",borderRadius:'10px'}}>
-            <img src="images/Pricing/premium.png" alt="basic pricing" className='img-fluid' />
+          <div style={{backgroundColor:"#753CAD",borderRadius:'10px',height:"428px"}}>
+            <img src="images/Pricing/premium.png" alt="basic pricing" className='img-fluid pt-5' style={{height:"150px",marginLeft:"40px"}} />
               <div style={{paddingTop:'35px'}}>
               <h3 style={{color:"#fff",fontWeight:"700",textAlign:"center",fontSize:'20px'}} className="pb-0">COMPREHENSIVE</h3> 
               <div className='d-flex justify-content-center'><div style={{color:"#fff",fontWeight:"700",textAlign:"center",display:'flex'}} className="py-2"><div style={{fontSize:'18px'}}>$</div ><span style={{fontSize:'45px'}}>975</span> </div>  </div>
@@ -293,7 +356,7 @@ like you, we have kept the prices appropriately." align="dkf"/>
               </div>
           </div>
           <Button 
-          onClick={()=>setFirstActive("")}
+          onClick={()=>setThirdActive("")}
           style={{color:"#fff",outline:"none",background:"#7D44B5",fontWeight:"500",border:"#fff",width:'100%',marginTop:'-50px'}}>
             View Features
           </Button>
@@ -301,9 +364,43 @@ like you, we have kept the prices appropriately." align="dkf"/>
                  Buy Now
               </Button>
         </Col>
+
+          :
+
+          <Col>
+          <div style={{backgroundColor:"#753CAD",borderRadius:'10px',height:"500px",width:"180px"}}>
+        
+        <Button 
+           onClick={()=>setThirdActive("third")}
+           style={{background:"#7D44B5" ,color:"#fff",paddingRight:"40px",paddingLeft:"40px",border:"none",fontWeight:"500"}}>
+             <strong>Close Features</strong>
+           </Button>
+
+           <ul style={{color:"#fff",fontSize:"14px", alignItems:"center"}} className="pt-5">
+           <li>Summary Statement</li>
+  <li>CPD</li>
+  <li>Delivery Date</li>
+  <li>Quality Assured</li>
+  <li>Plagiarism Free Reports</li>
+  <li>Professional Writers</li>
+  <li>File Status Update</li>
+  <li>Handling Unlimited</li>
+  <li>Comments from EA</li>
+  <li>Review of CLients Project</li>
+  <li>EA Portal Upload</li>
+  <li>Documentation Guideline Help</li>
+         </ul>
+
+
+        </div>
+      </Col>
+}
+
+{fourthActive==="fourth" ?  
+
         <Col  xs={6} className='px-1'>
-          <div style={{backgroundColor:"#CF4D30",borderRadius:'10px'}}>
-            <img src="images/Pricing/royal.png" style={{height:'110px',marginLeft:'30px'}} alt="basic pricing" className='img-fluid'/>
+          <div style={{backgroundColor:"#CF4D30",borderRadius:'10px',height:"428px"}}>
+            <img src="images/Pricing/royal.png" style={{height:'150px',marginLeft:'40px'}} alt="basic pricing" className='img-fluid pt-5'/>
               <div style={{paddingTop:'35px'}}>
               <h3 style={{color:"#fff",fontWeight:"700",textAlign:"center",fontSize:'20px'}} className="pb-0">EVERYTHING PLUS</h3> 
               <div className='d-flex justify-content-center'><div style={{color:"#fff",fontWeight:"700",textAlign:"center",display:'flex'}} className="py-2"><div style={{fontSize:'18px'}}>$</div ><span style={{fontSize:'45px'}}>1275</span> </div>  </div>
@@ -311,7 +408,7 @@ like you, we have kept the prices appropriately." align="dkf"/>
               </div>
           </div>
           <Button 
-          onClick={()=>setFirstActive("")}
+          onClick={()=>setFourthActive("")}
           style={{color:"#fff",outline:"none",background:"#E05637",fontWeight:"500",border:"#fff",width:'100%',marginTop:'-50px'}}>
             View Features
           </Button>
@@ -319,6 +416,42 @@ like you, we have kept the prices appropriately." align="dkf"/>
                  Buy Now
               </Button>
         </Col>
+        :
+
+        <Col>
+        <div style={{backgroundColor:"#CF4D30",borderRadius:'10px',height:"530px",width:"180px"}}>
+      
+      <Button 
+         onClick={()=>setFourthActive("fourth")}
+         style={{background:"#E05637" ,color:"#fff",paddingRight:"40px",paddingLeft:"40px",border:"none",fontWeight:"500"}}>
+           <strong>Close Features</strong>
+         </Button>
+
+         <ul style={{color:"#fff",fontSize:"14px", alignItems:"center"}} className="pt-5">
+         <li>3 Career Episode</li>
+  <li>Summary Statement</li>
+  <li>CPD</li>
+  <li>Delivery Date</li>
+  <li>Quality Assured</li>
+  <li>Plagiarism Free Reports</li>
+  <li>Professional Writers</li>
+  <li>File Status Update</li>
+  <li>Handling Unlimited</li>
+  <li>Comments from EA</li>
+  <li>Review of CLients Project</li>
+  <li>EA Portal Upload</li>
+  <li>Documentation Guideline Help</li>
+  <li>Rewrite any project</li>
+  <li>upon EA comment</li>
+  <li>3 Reports Inclusive</li>
+       </ul>
+
+
+      </div>
+    </Col>
+
+}
+
         </Row>
        
         </div>
