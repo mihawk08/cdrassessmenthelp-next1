@@ -818,6 +818,7 @@ description:`Your draft of CDR may contain errors in various aspects. Our CDR
 reviewing service suggests the best ways to present your skills, 
 knowledge, qualification and experience in writing for the approval 
 of Engineers Australia.`,
+image: `/images/specificanzsco/navalb.png`,
 unitGroupTitle1:`ANZSCO Code 233916.    `,
 unitGroupTitle2:`ANZSCO 233916- Naval Architect / Marine Designer.`,
 unitGroupTitle2Description:`Naval Architect / Marine Designer Designs the construction of marine craft and floating structures. Naval Architect / Marine Designer supervise the repair of marine craft and floating structures. Registration or licensing may be required It is possible that registration or licensing will be required.
@@ -2967,7 +2968,7 @@ description:`Your draft of CDR may contain errors in various aspects. Our CDR
 reviewing service suggests the best ways to present your skills, 
 knowledge, qualification and experience in writing for the approval 
 of Engineers Australia. `,
-image: `/images/specificanzsco/electricalDraft.png`,
+image: `/images/specificanzsco/telfeb.png`,
 
 unitGroupTitle1:`ANZSCO Unit Group-3132 `,
 unitGroupTitle2:`ANZSCO Unit Group-3132 Telecommunications Technical Specialists.
@@ -3087,7 +3088,7 @@ description:`Your draft of CDR may contain errors in various aspects. Our CDR
 reviewing service suggests the best ways to present your skills, 
 knowledge, qualification and experience in writing for the approval 
 of Engineers Australia. `,
-image: `/images/specificanzsco/electricalDraft.png`,
+image: `/images/specificanzsco/teltechb.png`,
 
 unitGroupTitle1:`ANZSCO Unit Group-3132 `,
 unitGroupTitle2:`ANZSCO Unit Group-3132 Telecommunications Technical Specialists.
@@ -3205,7 +3206,7 @@ description:`Your draft of CDR may contain errors in various aspects. Our CDR
 reviewing service suggests the best ways to present your skills, 
 knowledge, qualification and experience in writing for the approval 
 of Engineers Australia. `,
-image: `/images/specificanzsco/electricalDraft.png`,
+image: `/images/specificanzsco/telpb.png`,
 
 unitGroupTitle1:`ANZSCO Unit Group-3132  `,
 unitGroupTitle2:`ANZSCO Unit Group-3132 Telecommunications Technical Specialists.
@@ -3874,7 +3875,7 @@ tasks={allData.agricultureEngineer.tasks}/>
           </> }
 
           {anzsco==="anzsco-233916-naval-architect" && <>
-          <Anz1 title={allData.navalArchitect.title} description={allData.navalArchitect.description}/>
+          <Anz1 title={allData.navalArchitect.title} description={allData.navalArchitect.description} image={allData.navalArchitect.image}/> 
             <Anz2 unitGroupTitle1={allData.navalArchitect.unitGroupTitle1} 
             unitGroupTitle2={allData.navalArchitect.unitGroupTitle2} 
             unitGroupTitle2Description={allData.navalArchitect.unitGroupTitle2Description}
@@ -4401,7 +4402,7 @@ tasks={allData.telecommunicationsEngineer.tasks}/>
           </> }
 
 
-          {anzsco==="anzsco-313212-telecommunication-technologist" && <>
+          {anzsco==="anzsco-313212-telecommunication-network-engineer" && <>
           <Anz1 title={allData.telnetEngineer.title} description={allData.telnetEngineer.description} image={allData.telnetEngineer.image}/>
             <Anz2 unitGroupTitle1={allData.telnetEngineer.unitGroupTitle1} 
             unitGroupTitle2={allData.telnetEngineer.unitGroupTitle2} 
@@ -4633,7 +4634,7 @@ tasks={allData.telfieldEngineer.tasks}/>
           </> }
 
 
-          {anzsco==="anzsco-313213-telecommunications-technician" && <>
+          {anzsco==="anzsco-313213-telecommunications-technologists" && <>
           <Anz1 title={allData.telTechnician.title} description={allData.telTechnician.description} image={allData.telTechnician.image}/>
             <Anz2 unitGroupTitle1={allData.telTechnician.unitGroupTitle1} 
             unitGroupTitle2={allData.telTechnician.unitGroupTitle2} 

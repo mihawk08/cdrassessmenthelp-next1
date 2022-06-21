@@ -162,8 +162,8 @@ names for popular Engineering professions in Australia..</p>
   { <Link href="/anzsco-codes/anzsco-233611-mining-engineer" > 
    <img src="images/anzsco/13.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
    </Link>  }
-  { <Link href="/anzsco-codes/anzsco-233612-petroleum-engineer" >  
-    <img src="images/anzsco/14.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+  { <Link href="/anzsco-codes/anzsco-233916-naval-architect" >  
+    <img src="images/anzsco/naval.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
     </Link>  }
   { <Link href="/anzsco-codes/anzsco-233911-aeronautical-engineer" >  
   <img src="images/anzsco/15.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
@@ -190,7 +190,7 @@ names for popular Engineering professions in Australia..</p>
      <img src="images/anzsco/22.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
       </Link>  }
      { <Link href="/anzsco-codes/anzsco-313213-telecommunications-network-planner" >
-        <img src="images/anzsco/23.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
+        <img src="images/anzsco/telnetplan.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} />
          </Link>  }
      { <Link href="/anzsco-codes/anzsco-312211-civil-engineering-draftsperson" > 
      <img src="images/anzsco/24.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
@@ -201,9 +201,21 @@ names for popular Engineering professions in Australia..</p>
      { <Link href="/anzsco-codes/anzsco-312312-electrical-engineering-technician" > 
      <img src="images/anzsco/26.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
      </Link>  }
-     { <Link href="/anzsco-codes/anzsco-312311-electrical-engineering-draftsperson" > 
+     <Link href="/anzsco-codes/anzsco-312311-electrical-engineering-draftsperson" > 
      <img src="images/anzsco/27.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
-     </Link> }
+     </Link> 
+     <Link href="/anzsco-codes/anzsco-313212-telecommunication-field-engineer" > 
+     <img src="images/anzsco/telfe.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+     </Link> 
+     <Link href="/anzsco-codes/anzsco-313213-telecommunications-technologists" > 
+     <img src="images/anzsco/tt.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+     </Link> 
+     <Link href="/anzsco-codes/anzsco-313212-telecommunication-network-engineer" > 
+     <img src="images/anzsco/23.png" alt="anzsco codes" className='img-fluid mb-4' style={{height:"300px",width:"400px"}} /> 
+     </Link> 
+
+
+
 
 </Row>
 <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4'>ANZSCO Code define work duties for all engineering professions in Australia and 
