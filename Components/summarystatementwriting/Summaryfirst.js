@@ -18,7 +18,7 @@ the skill assessment of EA" align="left"  />
 significant focal section of three career experiences. Our writers 
 are skilled at aiding to write the ideal summary statement of your 
 professional experience.' align="left"/>
-<Button style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
+<Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
 <Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
@@ -102,7 +102,7 @@ make or break your CDR.
 Summary Statement writing for Engineers Australia. Prepare a Summary Statement that will get CDR approved by Engineers Australia. 
 </p>
 <div className='d-flex justify-content-center'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
+<Button href="/pricing"  style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
 Check our Pricing
 </Button>
 </div>

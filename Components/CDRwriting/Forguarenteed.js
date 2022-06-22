@@ -18,7 +18,7 @@ writing in Australia." align="left"  />
 writers with years of experience in CDR report writing will help you 
 develop flawless CDR. Our team of expert writers are ready to assist 
 you; you are one click away.' align="left"/>
-<Button style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
+<Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
   CONTACT US
 </Button>
 <Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>

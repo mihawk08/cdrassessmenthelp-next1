@@ -62,7 +62,7 @@ a career in Australia through skill assessment. We
 guarantee positive skills assessment from EA
 with a variety of services we provide regarding 
 CDR writing.' align="left"/>
-<Button style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
+<Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
 <Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
@@ -85,7 +85,7 @@ GET INSTANT HELP
             >
              
               <Form.Group className="mb-0" controlId="fullName">
-              <FormLabel>Full Name</FormLabel>
+              <FormLabel></FormLabel>
                 <Form.Control
                   placeholder="Full Name"
                   value={fullName}
@@ -97,7 +97,7 @@ GET INSTANT HELP
 
   
               <Form.Group className="mb-0" controlId="email">
-                <FormLabel>Email</FormLabel>
+                <FormLabel></FormLabel>
                 <Form.Control
                   type="text"
                   placeholder="Email"
@@ -111,7 +111,7 @@ GET INSTANT HELP
               
               
               <Form.Group className="mb-0" controlId="country">
-              <FormLabel>Country</FormLabel>
+              <FormLabel></FormLabel>
                 <Form.Control
                   type="text"
                   placeholder="country"
@@ -126,7 +126,7 @@ GET INSTANT HELP
 
               
               <Row className="mb-0">
-                <FormLabel>Contact number</FormLabel>
+                <FormLabel></FormLabel>
                 { <Form.Group controlId="contactNumber">
                   <PhoneInput
                     className="inputField img-fluid"
@@ -139,12 +139,12 @@ GET INSTANT HELP
           </Form.Group> }
               </Row>
 
-              <Row className="  mt-1 ">
+              <Row className="  mt-1">
                 <Button
                   onClick={()=>setActive("first")}
-                  className="formSubmitButton p-1"
+                  className="formSubmitButton "
                   type="submit"
-                  style={{backgroundColor:"#970012",fontFamily:"Barlow",fontWeight:"700",borderRadius:"2px"}}
+                  style={{backgroundColor:"#970012",fontFamily:"Barlow",fontWeight:"700",borderRadius:"5px",border:"none" ,marginLeft:"12px"}}
                 >
                   Book Now
                 </Button>

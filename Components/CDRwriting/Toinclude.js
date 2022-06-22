@@ -12,23 +12,23 @@ to assess an engineer&apos;s proficiency in engineering skills and knowledge, ma
 Engineers Australia consists of three different documents, namely: 
  </p>
      
-      <Row className='py-4'> 
-      <Col md={3} xs={6}>
-      <img src="/images/cdrwriting/image.png" alt="cdrwriting" className='img-fluid py-2' style={{height:"180px",width:"250px"}}/>
+      <Row className='py-4 ms-5'> 
+     
+      <img src="/images/cdrwriting/image.png" alt="cdrwriting" className='img-fluid py-0 me-3' style={{height:"180px",width:"230px"}}/>
 
-      </Col>
-      <Col md={3} xs={6}>
-      <img src="/images/cdrwriting/image1.png" alt="cdrwriting" className='img-fluid py-2' style={{height:"180px",width:"280px"}}/>
+    
+     
+      <img src="/images/cdrwriting/image1.png" alt="cdrwriting" className='img-fluid py-0 me-3' style={{height:"180px",width:"230px"}}/>
 
-      </Col>
-      <Col md={3} xs={6}>
-      <img src="/images/cdrwriting/image2.png" alt="cdrwriting" className='img-fluid py-2' style={{height:"180px",width:"250px"}}/>
+    
+     
+      <img src="/images/cdrwriting/image2.png" alt="cdrwriting" className='img-fluid py-0 me-3' style={{height:"180px",width:"230px"}}/>
 
-      </Col>
-      <Col md={3} xs={6}>
-      <img src="/images/cdrwriting/image3.png" alt="cdrwriting" className='img-fluid py-2' style={{height:"180px",width:"250px"}}/>
+      
+     
+      <img src="/images/cdrwriting/image3.png" alt="cdrwriting" className='img-fluid py-0' style={{height:"180px",width:"230px"}}/>
 
-      </Col>
+      
       </Row>
 
 
@@ -55,8 +55,8 @@ to Engineers Australia. Competency Demonstration Report is one of the most cruci
 
 Australia, as it presents your skills in writing.
 </p>
-<div className='px-md-5 d-flex justify-content-center justify-content-md-start'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}}>
+<div className='px-md-5 d-flex justify-content-center justify-content-md-center'>
+<Button href='/contact-us' style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}}>
     Contact Us
     </Button> 
     </div>

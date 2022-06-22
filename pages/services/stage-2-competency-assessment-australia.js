@@ -27,7 +27,7 @@ Competency Assessment" align="left"  />
 engineering field with exclusive Chartered Membership of EA. 
 Develop a flawless Stage 2 Competency Assessment for Chartered 
 membership of Engineers Australia.' align="left"/>
-<Button style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
+<Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
 <Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
@@ -80,7 +80,7 @@ knowledge and experience to be a member of Engineers Australia. Competency Demon
 for anyone looking to start a profession in Australia, as it presents your skills in writing
 </p>
 <div className='d-flex justify-content-center'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-md-4 mb-2">
+<Button href="/pricing" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-md-4 mb-2">
 Check Our Pricing
 </Button>
 </div>

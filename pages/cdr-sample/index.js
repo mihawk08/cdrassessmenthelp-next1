@@ -28,7 +28,7 @@ approval of CDR from EA" align="left"  />
 reviewing service suggests the best ways to present your skills, 
 knowledge, qualification and experience in writing for the approval 
 of Engineers Australia.   ' align="left"/>
-<Button style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
+<Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
 <Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>

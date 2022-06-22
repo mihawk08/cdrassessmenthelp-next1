@@ -29,7 +29,7 @@ of the Stage 1 Competency Assessment. Professional writers with
 years of experience in developing flawless Stage 1 Competency 
 Assessment at CDR assessment help assist engineers to be eligible for a 
 member of Engineers Australia' align="left"/>
-<Button style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
+<Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
 <Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
@@ -82,7 +82,7 @@ knowledge and experience to be a member of Engineers Australia. Competency Demon
 for anyone looking to start a profession in Australia, as it presents your skills in writing
 </p>
 <div className='d-flex justify-content-center'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-4 ">
+<Button href="/pricing" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-4 ">
 Check Our Pricing
 </Button>
 </div>

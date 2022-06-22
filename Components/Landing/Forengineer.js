@@ -19,7 +19,7 @@ demonstrate their engineering skills and knowledge
 through CDR for positive assessment from EA." align="potato"/>
             
 
-<Button style={{backgroundColor:"#970012",marginRight:'20px',fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
+<Button href='/contact-us' style={{backgroundColor:"#970012",marginRight:'20px',fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
   Contact Us
 </Button>
 
