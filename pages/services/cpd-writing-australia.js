@@ -4,6 +4,7 @@ import Headings from '../../Components/Headings'
 import Paragraphs from '../../Components/Paragraphs'
 import {useRouter} from 'next/router'
 import  Head  from 'next/head';
+import Chatra from '@chatra/chatra'
 
 const CPDWriting = () => {
     const router = useRouter()
@@ -48,7 +49,7 @@ to assist you; you are one click away.' align="left"/>
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
-<Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
+<Button  onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
 <p className='text-center text-md-start' style={{color:"#434343",fontWeight:"400"}}>Trusted by thousand of Engineers from around the world</p>
@@ -293,7 +294,7 @@ learning method.
 free to contact our experts.
 </p>
 <div className='d-flex justify-content-center '>
-<Button href="contact-us" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
+<Button href="/our-agents" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
     Contact an Expert
     </Button> 
 </div>

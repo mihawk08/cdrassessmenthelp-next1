@@ -1,4 +1,5 @@
 
+import Chatra from '@chatra/chatra'
 import React from 'react'
 import { Col, Container, Row ,Button} from 'react-bootstrap'
 import Headings from '../Headings'
@@ -21,7 +22,7 @@ professional experience.' align="left"/>
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
-<Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
+<Button  onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
 <p style={{color:"#434343",fontWeight:"400",textAlign:'center'}}>Trusted by thousand of Engineers from around the world</p>
@@ -67,7 +68,7 @@ career episodes in tabular format to Engineers Australia. A summary statement is
 an engineering profession in Australia, as it presents your skills in writing.
 </p>
 <div className='d-flex justify-content-center  '>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
+<Button href="/cdr-sample" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
 Get Free Samples
 </Button>
 </div>

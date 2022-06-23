@@ -1,3 +1,4 @@
+import Chatra from '@chatra/chatra'
 import React from 'react'
 import { Container, Button, Row, Col } from 'react-bootstrap'
 import Headings from '../Headings'
@@ -22,7 +23,7 @@ of Engineers Australia.      " align="potato"/>
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
   Contact Us
 </Button>
-<Button style={{backgroundColor:"#fff",marginLeft:'10px',color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
+<Button  onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",marginLeft:'10px',color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
 <p className='text-center text-md-start' style={{color:"#434343",fontWeight:"400"}}>Trusted by thousand of Engineers from around the world</p>
@@ -63,7 +64,7 @@ through the process and ensure a high approval rate from Engineers Australia. We
 free to contact our experts.
 </p>
 <div className='d-flex justify-content-center '>
-<Button className='mb-2 mb-md-5' style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} >
+<Button href='/our-agents' className='mb-2 mb-md-5' style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} >
     Contact an Expert
     </Button> 
     </div>

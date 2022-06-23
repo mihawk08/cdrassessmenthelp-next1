@@ -4,6 +4,7 @@ import Headings from '../../Components/Headings'
 import Paragraphs from '../../Components/Paragraphs'
 import {useRouter} from 'next/router'
 import  Head  from 'next/head';
+import Chatra from '@chatra/chatra'
 
 const CDRPlagiarismCheckingandRemoval = () => {
   const router = useRouter()
@@ -43,7 +44,7 @@ click away.
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
   Contact Us
 </Button>
-<Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
+<Button  onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
 <p className='text-center text-md-start' style={{color:"#434343",fontWeight:"400"}}>Trusted by thousand of Engineers from around the world</p>
@@ -77,7 +78,7 @@ reports.
 free to contact our experts.
 </p>
 <div className='d-flex justify-content-center'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
+<Button href="/our-agents" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
     Contact an Expert
     </Button> 
 </div>
@@ -152,7 +153,7 @@ free to contact our experts.
 free to contact our experts.
 </p>
 <div className='d-flex justify-content-center'>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
+<Button href="/our-agents" style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none"}} className="mb-5 ">
     Contact an Expert
     </Button> 
 </div>

@@ -1,3 +1,4 @@
+import Chatra from '@chatra/chatra'
 import React from 'react'
 import { Col, Container, Row,Button } from 'react-bootstrap'
 import Headings from '../Headings'
@@ -23,7 +24,7 @@ through CDR for positive assessment from EA." align="potato"/>
   Contact Us
 </Button>
 
-<Button style={{backgroundColor:"#fff",fontWeight:"600",color:"#970012",borderRadius:"4px",border:"1px solid #970012"}}>
+<Button  onClick={() => Chatra("openChat", true)}  style={{backgroundColor:"#fff",fontWeight:"600",color:"#970012",borderRadius:"4px",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
 </Col>

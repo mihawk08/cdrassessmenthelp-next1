@@ -5,6 +5,7 @@ import Headings from '../../Components/Headings'
 import Paragraphs from '../../Components/Paragraphs'
 import  Head  from 'next/head';
 import Link from 'next/link'
+import Chatra from '@chatra/chatra'
 
 const CDRSamples = () => {
   const router = useRouter()
@@ -31,7 +32,7 @@ of Engineers Australia.   ' align="left"/>
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
-<Button style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
+<Button  onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
 <p style={{color:"#000",fontWeight:"500"}}>Trusted by thousand of Engineers from around the world</p>
@@ -71,7 +72,7 @@ through a number of bespoke papers. Engineers Australia's CDR report is made up 
       <p style={{color:"#666",textAlign:"center"}} className='px-3 pb-2 ms-0'>The ideal business strategy is a pleased consumer. We have a good track record of gaining clearances for CDR reports 
 generated for Australian Engineers. Professional writers with years of experience are ready to assist you.
 </p>
-<Button style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none",marginLeft:"500px",width:"200px"}} className="mb-5 ">
+<Button  onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#970012" ,fontWeight:"600",border:"none",marginLeft:"500px",width:"200px"}} className="mb-5 ">
     Claim Free Consultation
     </Button> 
 
