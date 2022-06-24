@@ -5,6 +5,7 @@ import Paragraphs from '../../Components/Paragraphs'
 import {useRouter} from 'next/router'
 import  Head  from 'next/head';
 import Chatra from '@chatra/chatra'
+import Script from 'next/script'
 
 const CPDWriting = () => {
     const router = useRouter()
@@ -29,8 +30,37 @@ const CPDWriting = () => {
   communicate at the workplace to make a positive 
   impact at the workplace. It also reflects decision-
   making abilities and leadership skills.`,alt:`Value of Workplace`}]
+  const  schemaData= {
+    "@context": "http://schema.org",
+    "@type": "Product",
+    name: "CDR Report Writing Services for Engineers Australia",
+    image: "https://cdrskillassessment.com/images/n2.png",
+    description:
+      "We provide personalised CDR reports prepared by CDR experts based on your degree and career.",
+    url: "https://www.cdrassessmenthelp.com/services/cpd-writing-australia",
+    brand: {
+      "@type": "Brand",
+      name: "cdrskillassessment",
+      logo: "https://www.cdrassessmenthelp.com/logo.png",
+    },
+    offers: {
+      "@type": "Offer",
+      price: "Negotiable",
+    },
+    aggregateRating: {
+      "@type": "AggregateRating",
+      ratingValue: 10,
+      bestRating: 10,
+      worstRating: 7,
+      ratingCount: 20,
+    },
+  }
+
   return (
     <div>
+         <Script type="application/ld+json">
+      {JSON.stringify(schemaData)}
+</Script>
         <Head>
         <title>High-Quality CDR Report Writing Service for Engineers Australia</title>
         <meta name='description' content="Engineering Applicants seeking the best service provider for CDR Writing? Grab your high-quality CDR Report to get 100 % Approval from Engineers Australia."/>

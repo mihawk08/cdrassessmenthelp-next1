@@ -5,6 +5,7 @@ import Paragraphs from '../../Components/Paragraphs'
 import {useRouter} from 'next/router'
 import  Head  from 'next/head';
 import Chatra from '@chatra/chatra'
+import Script from 'next/script'
 
 const ResumeWriting = () => {
   const router = useRouter()
@@ -51,8 +52,38 @@ Our Professional writers from an engineering
 background with years of experience in CDR 
 writing make CDRskillassessment the best 
 resume writing service provider in Australia.`,alt:`Make it Professional`}]
+
+const  schemaData= {
+  "@context": "http://schema.org",
+  "@type": "Product",
+  name: "CDR Report Writing Services for Engineers Australia",
+  image: "https://cdrskillassessment.com/images/n2.png",
+  description:
+    "We provide personalised CDR reports prepared by CDR experts based on your degree and career.",
+  url: "https://www.cdrassessmenthelp.com/services/professional-resume-writing-australia",
+  brand: {
+    "@type": "Brand",
+    name: "cdrskillassessment",
+    logo: "https://www.cdrassessmenthelp.com/logo.png",
+  },
+  offers: {
+    "@type": "Offer",
+    price: "Negotiable",
+  },
+  aggregateRating: {
+    "@type": "AggregateRating",
+    ratingValue: 10,
+    bestRating: 10,
+    worstRating: 7,
+    ratingCount: 20,
+  },
+}
+
   return (
     <div>
+       <Script type="application/ld+json">
+      {JSON.stringify(schemaData)}
+</Script>
       <Head>
         <title>professional CV-Resume Writing services for Engineers Australia.</title>
         <meta name='description' content="Searching for Best cv-Resume Writing service provider in Australia? Our professional writers help you with Best Cv-Resume Report for Engineers Australia"/>

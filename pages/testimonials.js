@@ -5,6 +5,7 @@ import Paragraphs from '../Components/Paragraphs'
 import {useRouter} from 'next/router'
 import  Head  from 'next/head';
 import FormatQuoteIcon from '@mui/icons-material/FormatQuote';
+import Script from 'next/script'
 
 
 const CustomerTestimonial = () => {
@@ -23,9 +24,32 @@ const CustomerTestimonial = () => {
   without missing a thing. Very happy with the customer 
   care team. Will use your service again. Very impressed 
   with their work. Detailed writing without missing a 
-  thing. Very happy with the customer care team.</p> }
+  thing. Very happy with the customer care team.</p> 
+  
+
+}
+
+const schemaData = {
+  "@context": "https://schema.org/", 
+  "@type": "Product", 
+  "name": "CDR report",
+  "image": "",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.5",
+    "bestRating": "5",
+    "worstRating": "0",
+    "ratingCount": "20"
+  }
+}
+
+  
   return (
     <div>
+
+<Script type="application/ld+json">
+      {JSON.stringify(schemaData)}
+</Script>
        <Head>
         <title>Testimonials | CDR Assessment Help</title>
         <meta name="description" content="Testimonials | CDR Assessment Help"/>
