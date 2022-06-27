@@ -23,7 +23,7 @@ const Anz3 = ({occupationListTitle, occupationList, visaProvisionTitle2, visaPro
 
  )}
  
- <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4 pb-3'>{visaProvisionTitle2 && visaProvisionTitle2 }</h3>
+ <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4 pb-3'>{visaProvisionTitle2 && visaProvisionTitle2} </h3>
  <p style={{color:"#666"}}>{visaProvisionDescription2 && visaProvisionDescription2}</p>
  
  
