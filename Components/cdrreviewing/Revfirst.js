@@ -26,7 +26,7 @@ of Engineers Australia.      " align="potato"/>
 <Button  onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",marginLeft:'10px',color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
-<p className='text-center text-md-start' style={{color:"#434343",fontWeight:"400"}}>Trusted by thousand of Engineers from around the world</p>
+<p className=' text-md-start pt-4' style={{color:"#434343",fontWeight:"400"}}>Trusted by thousand of Engineers from around the world</p>
 
 </Col>
 

@@ -21,7 +21,7 @@ const CDRSamples = () => {
       </Head>
       <Container>
       <Row>
-<Col md={6} className='px-4  mt-5'>
+<Col md={6} className='pe-5  mt-5'>
        <Headings title="CDRforengineer’s CDR 
 reviewing service ensures 
 approval of CDR from EA" align="left"  />   
@@ -29,12 +29,14 @@ approval of CDR from EA" align="left"  />
 reviewing service suggests the best ways to present your skills, 
 knowledge, qualification and experience in writing for the approval 
 of Engineers Australia.   ' align="left"/>
+<div className='py-3'>
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
 <Button  onClick={() => Chatra("openChat", true)} style={{backgroundColor:"#fff",color:"#970012",fontWeight:"600",border:"1px solid #970012"}}>
 GET INSTANT HELP
 </Button>
+</div>
 <p style={{color:"#000",fontWeight:"500"}}>Trusted by thousand of Engineers from around the world</p>
 </Col>
 
@@ -62,10 +64,10 @@ and ensure a high approval rate of CDR from Engineers Australia. We provide high
 through a number of bespoke papers. Engineers Australia's CDR report is made up of three separate documents: </p>
 <Row>
 
-  <img src="/images/sample/3ce.png" alt="3 career episodes" className='img-fluid' style={{width:"270px",height:"230px"}}/>
-  <img src="/images/sample/cpd.png" alt="continuing professional development" className='img-fluid' style={{width:"287px",height:"230px"}}/>
-  <img src="images/sample/ssw.png" alt="summary statement writing" className='img-fluid' style={{width:"270px",height:"230px"}}/>
-  <img src="images/sample/cvr.png" alt="cv-resume" className='img-fluid' style={{width:"270px",height:"230px"}}/>
+  <img src="/images/sample/3ce.png" alt="3 career episodes" className='img-fluid' style={{width:"290px",height:"230px"}}/>
+  <img src="/images/sample/cpd.png" alt="continuing professional development" className='img-fluid' style={{width:"320px",height:"230px"}}/>
+  <img src="images/sample/ssw.png" alt="summary statement writing" className='img-fluid' style={{width:"290px",height:"230px"}}/>
+  <img src="images/sample/cvr.png" alt="cv-resume" className='img-fluid' style={{width:"290px",height:"230px"}}/>
 </Row>
 
 <h3 style={{color:"#000",fontWeight:"700",textAlign:"center"}} className='px-0 pt-5 ms-0'>CDR help for positive skill assessment of CDR from Engineers Australia</h3>
@@ -78,82 +80,82 @@ generated for Australian Engineers. Professional writers with years of experienc
 
     <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4'>Samples of CDR report prepared by expert writers in compliance with MSA 
 guidelines by Engineers Australia.</h3><Row>
-<Link href ="/cdr-sample/engineering-manager"><img src="/images/sample/1.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+<Link href ="/cdr-sample/engineering-manager"><img src="/images/sample/1.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
 </Link>
 <Link href ="/cdr-sample/chemical-engineer">
-  <img src="/images/sample/2.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/2.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/material-engineer">
-  <img src="/images/sample/3.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/3.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/civil-engineer">
-  <img src="/images/sample/4.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/4.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/geotechnical-engineer">
-  <img src="/images/sample/5.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/5.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/structural-engineer">
-<img src="/images/sample/6.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+<img src="/images/sample/6.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
 </Link>
 <Link href ="/cdr-sample/transport-engineer">
-  <img src="/images/sample/7.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/7.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/electrical-engineer">
-  <img src="/images/sample/8.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/8.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/electronics-engineer">
-  <img src="/images/sample/9.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/9.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/industrial-engineer">
-  <img src="/images/sample/10.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/10.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/mechanical-engineer">
-  <img src="/images/sample/11.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/11.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/production-engineer">
-  <img src="/images/sample/12.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/12.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/mining-engineer">
-  <img src="/images/sample/13.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/13.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/petroleum-engineer">
-  <img src="/images/sample/14.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/14.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/aeronautical-engineer">
-  <img src="/images/sample/15.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/15.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/biomedical-engineer">
-  <img src="/images/sample/16.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/16.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/engineering-tecnologist">
-  <img src="/images/sample/17.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/17.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/environmental-engineer">
-  <img src="/images/sample/18.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/18.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/engineering-professionals">
-  <img src="/images/sample/19.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/19.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 <Link href ="/cdr-sample/computer-network-and-system-engineer">
-  <img src="/images/sample/20.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/20.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
   <Link href ="/cdr-sample/telecommunication-network-engineer">
-    <img src="/images/sample/21.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+    <img src="/images/sample/21.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
     </Link>
   <Link href ="/cdr-sample/civil-engineering-draftsperson">
-    <img src="/images/sample/22.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+    <img src="/images/sample/22.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
     </Link>
   <Link href ="/cdr-sample/electrical-engineering-technician">
-    <img src="/images/sample/23.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+    <img src="/images/sample/23.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
     </Link>
   <Link href ="/cdr-sample/civil-engineering-technician">
-    <img src="/images/sample/24.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+    <img src="/images/sample/24.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
     </Link>
   <Link href ="/cdr-sample/electrical-engineering-draftsperson">
-    <img src="/images/sample/25.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+    <img src="/images/sample/25.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
     </Link>
   <Link href ="/cdr-sample/telecommunications-field-engineer"> 
-  <img src="/images/sample/26.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"270px"}} />
+  <img src="/images/sample/26.png" alt="cdr samples" className='img-fluid' style={{height:"270px",width:"300px"}} />
   </Link>
 </Row>
 </Row>    
