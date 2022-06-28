@@ -96,12 +96,15 @@ GET INSTANT HELP
 
 <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-5 pb-3'>Why is a CPD essential for engineers 
 in Australia? </h3>
-<p style={{color:"#666",}}>A CDR Summary Statement may be one page long, but it does not diminish its significance for Engineers Australia. It is centred on the 
+<p style={{color:"#666",}}><a href="https://www.cdrassessmenthelp.com/services/summary-statement-writing-australia
+" rel="dofollow"> A CDR Summary Statement may be one page long,</a> but it does not diminish its significance for Engineers Australia. It is centred on the 
 significant focal section of your three career experiences. The summary statement&apos;s contents are the competency aspects claimed by you, 
 demonstrating how and where you have achieved/applied the claims in your professional episodes. Our writers are skilled at aiding you in 
 creating the ideal summary statement for your professional experience.<br/>
-Even though the Summary statement written for Engineers Australia is just a page long, it has huge importance in the CDR report. Summary 
-statement writing in Australia is based on three career episodes based on various engineering experiences you&apos;ve had during your career. 
+Even though the Summary statement written for Engineers Australia is just a page long, it has <a href="https://www.cdrassessmenthelp.com/services/cdr-writing-service-australia
+" rel="dofollow"> huge importance in the CDR report.</a> Summary 
+statement writing in Australia is based on <a href="https://www.cdrassessmenthelp.com/services/career-episode-writing-australia
+" rel="dofollow"> three career episodes based on various engineering experiences </a> you&apos;ve had during your career. 
 The summary statement&apos;s contents are competency aspects that you claim and how you utilised and attained those elements over your 
 professional episodes.<br/> 
 Our expert writers are always eager to assist you in drafting appealing career episodes based on your professional expertise to include in 

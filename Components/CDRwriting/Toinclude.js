@@ -33,18 +33,22 @@ Engineers Australia consists of three different documents, namely:
 
 
       <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='px-md-5 pt-5 pb-4'>Writing a CDR report is essential for Engineers</h3>
-      <p style={{color:"#666"}} className='px-md-5 pb-4' >Engineers Australia requires a technical report from applicants who want to pursue a profession in engineering in Australia. CDR 
+      <p style={{color:"#666"}} className='px-md-5 pb-4' ><a href="https://www.cdrassessmenthelp.com/services/summary-statement-writing-australia
+" rel="dofollow">Engineers Australia requires a technical report </a> from applicants who want to pursue a profession in engineering in Australia. CDR 
 report stands for Competency Demonstration Report. Engineers are using CDR reports in Australia to assess the competency and 
 education level of international engineering students and professionals who wish to work in the country. The primary purpose of 
 the CDR is to demonstrate your professional abilities and knowledge as an engineering associate, professional engineer, or 
 engineering technologist.<br/>
 For permanent engineer migration to Australia, a CDR report is one of the most important documents. Australia provides an excellent 
-environment for engineers to work. Before applying for a skilled immigration visa in Australia, you must get your CDR report approved 
-by Engineers Australia. You can write this report independently or with the assistance of engineers. Engineers Australia states that CDR 
-reports must follow their requirements and be free of mistakes. The procedure of CDR Plagiarism Checking is included in the report 
+environment for engineers to work. Before applying for a skilled immigration visa in Australia, you must <a href="https://www.cdrassessmenthelp.com/services/cdr-reviewing-australia
+" rel="dofollow">get your CDR report approved 
+by Engineers Australia.</a> You can write this report independently or with the assistance of engineers. Engineers Australia states that CDR 
+reports must <a href="https://www.cdrassessmenthelp.com/services/cdr-reviewing-australia
+" rel="dofollow" > follow their requirements and be free of mistakes. </a>The procedure of CDR Plagiarism Checking is included in the report 
 called proofreading.<br/>
 Applicants are to submit technical engineering applications and demonstrate their skills and knowledge in the chosen vocation. Your 
-report will be evaluated using the ANZSCO society and graduate competency standards. 
+report will be <a href="https://www.cdrassessmenthelp.com/anzsco-codes
+" rel="dofollow"> evaluated using the ANZSCO society </a> and graduate competency standards. 
  
  </p>
 

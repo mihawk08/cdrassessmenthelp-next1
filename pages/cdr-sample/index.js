@@ -51,17 +51,22 @@ GET INSTANT HELP
 by EA.Before you make a decision, please go through the CDR report samples available for you to review the quality of our 
 services. CDR report samples prepared by professional writers are based on a specific format described by Engineers Australia 
 in the Migration Skill Assessment booklet. With a high success record of Competency Demonstration Report (CDR) approval 
-from Engineers Australia, CDRskillassessment provides the best CDR report samples.
+from Engineers Australia, <a href="https://www.cdrassessmenthelp.com/services
+" rel="dofollow"> CDRskillassessment provides the best CDR report </a> samples.
 Engineers Australia will review the CDR report submitted by engineering applicants who wish to migrate to Australia for skilled 
-work. We have dedicated engineering teams with years of experience in CDR writing services. They&apos;ll walk you through the process 
-and ensure a high approval rate of CDR from Engineers Australia. We provide high-quality non-plagiarized CDR reports. 
+work. We have dedicated engineering teams with years of experience in <a href="https://www.cdrassessmenthelp.com/services
+" rel="dofollow"> CDR Writing Services.</a> They&apos;ll walk you through the process 
+and ensure a <a href="https://www.cdrassessmenthelp.com/services/cdr-reviewing-australia
+" rel="dofollow"> high approval 
+rate of CDR </a> from Engineers Australia. We provide high-quality non-plagiarized CDR reports. 
 
 </p>
 </div>
 
 <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4'>Unique contents in CDR report samples for positive skill assessment from EA</h3>
 <p style={{cloor:"#666"}}>Engineers Australia assesses an engineer's ability in engineering skills and knowledge, management, communication, and leadership 
-through a number of bespoke papers. Engineers Australia's CDR report is made up of three separate documents: </p>
+<a href="https://www.cdrassessmenthelp.com/services/summary-statement-writing-australia
+" rel="dofollow"></a>through a number of bespoke papers. Engineers Australia's CDR report is made up of three separate documents: </p>
 <Row>
 
   <img src="/images/sample/3ce.png" alt="3 career episodes" className='img-fluid' style={{width:"290px",height:"230px"}}/>

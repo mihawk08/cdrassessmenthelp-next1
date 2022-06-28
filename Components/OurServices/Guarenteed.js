@@ -58,11 +58,13 @@ const Guarenteed = () => {
        <Headings title="Get CDR writing help for 
 guaranteed positive skill 
 assessment from EA" align="left"  />   
-<Paragraphs  data='We provide CDR writing help for engineers pursuing 
+<Paragraphs  data={<div>We provide CDR writing help for engineers pursuing 
 a career in Australia through skill assessment. We 
-guarantee positive skills assessment from EA
+guarantee <a href="https://www.cdrassessmenthelp.com/services/stage-1-competency-assessment-australia
+" rel="dofollow"> positive 
+skill assessment </a> from EA
 with a variety of services we provide regarding 
-CDR writing.' align="left"/>
+CDR writing.</div>} align="left"/>
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
 </Button>
@@ -169,9 +171,11 @@ the skill assessment of EA</h3>
 are prone to make various mistakes. EA will reject 
 skill assessment if CDR is not written in accordance 
 with guidelines. A dedicated engineering team with 
-years of experience in CDR writing services will walk 
-you through the process and ensure a high approval 
-rate of CDR from Engineers Australia..</p>
+years of experience in <a href="https://www.cdrassessmenthelp.com/services
+" rel="dofollow"> CDR Writing Services</a> will walk 
+you through the process and ensure a <a href="https://www.cdrassessmenthelp.com/services/cdr-reviewing-australia
+" rel="dofollow"> high approval 
+rate of CDR </a> from Engineers Australia..</p>
       </Container>
     </div>
   )

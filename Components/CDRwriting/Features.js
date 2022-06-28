@@ -7,9 +7,11 @@ const Features = () => {
 
         <Container>
         <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='px-md-5 pt-5'>Features of CDR report writing service for Engineers</h3>
-      <p style={{color:"#666"}} className='px-md-5 pb-4' >CDRskillassessment meticulously produces an innovative CDR report that displays your academic and career track record in the 
+      <p style={{color:"#666"}} className='px-md-5 pb-4' >CDRskillassessment meticulously <a href="https://www.cdrassessmenthelp.com/pricing
+" rel="dofollow"> produces an innovative CDR report</a> that displays your academic and career track record in the 
 best possible light to demonstrate your abilities, expertise, and career accomplishment. There are various aspects and methods to 
-CDR Writing, which may be a difficult task for engineers. We provide multiple options and services for accurately preparing each 
+CDR Writing, which may be a difficult task for engineers. We provide <a href="https://www.cdrassessmenthelp.com/services
+" rel="dofollow"> multiple options and services </a>for accurately preparing each 
 of those elements. Some of our services are as follows: 
  </p>
 

@@ -37,14 +37,17 @@ GET INSTANT HELP
 
 <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-5 pb-3'>To get CDR approved by Engineers Australia, prepare a flawless Summary statement</h3>
 <p style={{color:"#666",}}>A CDR Summary Statement may be one page long, but it does not diminish its significance for Engineers Australia. It is centred on the 
-significant focal section of your three career experiences. The summary statement&apos;s contents are the competency aspects claimed by you, 
+significant <a hreef="https://www.cdrassessmenthelp.com/services/career-episode-writing-australia
+" rel="dofollow"> focal section of your three career experiences.</a> The summary statement&apos;s contents are <a href="https://www.cdrassessmenthelp.com/services/stage-1-competency-assessment-australia
+" rel="dofollow"> the competency aspects claimed by you </a>, 
 demonstrating how and where you have achieved/applied the claims in your professional episodes. Our writers are skilled at aiding you in 
 creating the ideal summary statement for your professional experience.<br/>
 Even though the Summary statement written for Engineers Australia is just a page long, it has huge importance in the CDR report. Summary 
 statement writing in Australia is based on three career episodes based on various engineering experiences you&apos;ve had during your career. 
 The summary statement&apos;s contents are competency aspects that you claim and how you utilised and attained those elements over your 
 professional episodes.<br/> 
-Our expert writers are always eager to assist you in drafting appealing career episodes based on your professional expertise to include in 
+Our expert writers are always eager to <a href="https://www.cdrassessmenthelp.com/services/career-episode-writing-australia
+" rel="dofollow"> assist you in drafting appealing career episodes </a> based on your professional expertise to include in 
 Summary statement writing, making us the best Summary Statement service provider in Australia. Summary statement writing is solely 
 based on the information you provide about your education and work experience. 
 
@@ -53,7 +56,8 @@ based on the information you provide about your education and work experience.
 <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-5 pb-3'>Summary Statement is a key part of the Skill Assessment of Engineers Australia</h3>
 <p style={{color:"#666",}}>The summary statement is a tabular representation of all three career episodes&apos; competency elements and appropriate mapping of their 
 skills from each career episode. A summary statement is a required piece of paperwork that must be presented to Engineers Australia 
-along with CDR for assessing the competency of an engineer migrating and residing in Australia. <br/>
+along with <a href="https://www.cdrassessmenthelp.com/services/stage-1-competency-assessment-australia
+" rel="dofollow"> CDR for assessing the competency of an engineer </a> migrating and residing in Australia. <br/>
 Summary statement writing should quickly reference specific competency aspects, with career episode paragraphs numbered. The goal 
 of a summary statement in writing CDR for Engineers Australia is to demonstrate how you applied your technical skills and professional 
 and personal attributes. While writing a summary statement, we always include all your abilities and knowledge and connect them to the 
@@ -77,7 +81,8 @@ Get Free Samples
 
 <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-3 pb-1'>Essential information to include while writing CDR Summary Statement for positive 
 skill assessment of Engineers Australia.</h3>
-<p style={{color:"#666",}}>It is a good idea to include as many indicators as feasible in each Career Episode and highlight them in your Summary Statement writing. 
+<p style={{color:"#666",}}>It is a good idea to include as many <a href="https://www.cdrassessmenthelp.com/services/career-episode-writing-australia
+" rel="dofollow"> indicators as feasible in each Career Episode </a> and highlight them in your Summary Statement writing. 
 Based on their engineering talents and expertise, there are four categories in the CDR summary statement report written for Engineers 
 Australia. Professional Engineer, Engineering Manager, Engineering Associate, and Engineering Technologist are the four categories. 
 Each of the four categories has a separate Summary Statement for Engineers Australia template, and you must examine and cover all 

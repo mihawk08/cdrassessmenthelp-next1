@@ -16,7 +16,8 @@ const SpecificSample = () => {
 
     engineeringManager:{
         title:`CDR Report Sample for Engineering Manager ANZSCO CODE 133211`,
-        description:` Your draft of CDR may contain errors in various aspects. Our CDR reviewing service suggests the best ways to present your skills,knowledge, qualification and experience in writing for the approval of Engineers Australia.  `,
+        description:<div> Your draft of CDR may contain errors in various aspects. Our <a href="https://www.cdrassessmenthelp.com/services/cdr-reviewing-australia
+        " rel="dofollow"> CDR reviewing service suggests the best ways to present your skills,</a>knowledge, qualification and experience in writing for the approval of Engineers Australia.  </div>,
         image:"/images/specificsample/enmanager.png",
 
         cdrsampletitle:"CDR Sample for Engineering Manager: ANZSCO 133211",

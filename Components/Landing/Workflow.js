@@ -11,15 +11,17 @@ const Workflow = () => {
             <div className='pt-5 pb-3'>            <Headings title="Getting help for writing CDR is easier 
 than ever" /></div>
 
-            <Paragraphs data="We offer flawless CDR reports with genuine and 
-plagiarism-free content. Professional writers 
+            <Paragraphs data= {<div>We offer flawless CDR reports with <a href="https://www.cdrassessmenthelp.com/services/plagiarism-checking-and-removal
+" rel="dofollow"> genuine and 
+plagiarism-free content. </a> Professional writers 
 follow the guidelines and format of skill assessment 
 mentioned in EA's MSA booklet while writing the CDR 
-report. Professional writers with years of experience 
-providing help in CDR writing for engineers’ skill 
+report. Professional writers with <a href="https://www.cdrassessmenthelp.com/pricing
+" rel="dofollow">years of experience 
+providing help in CDR writing </a> for engineers’ skill 
 assessment in Australia devote considerable effort 
 to preparing the CDR report. 
-" />
+</div> } />
 
 
 

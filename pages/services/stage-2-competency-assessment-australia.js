@@ -205,7 +205,8 @@ requirements, it can be simple to prepare all submissions.
           <Col md={6} className='px-5 mt-5 pt-5 '>
       
       <h5 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-5 mt-5'> Continuing Professional Development (CPD) Report:</h5>
-      <p style={{color:"#666"}}>CPD is an abbreviation for Continuing Professional Development, and it refers to the learning activities that professionals engage 
+      <p style={{color:"#666"}}> <a href="https://www.cdrassessmenthelp.com/services/cpd-writing-australia
+" rel="dofollow">CPD is an abbreviation for Continuing Professional Development,</a> and it refers to the learning activities that professionals engage 
 in in order to improve and grow their skills. CPD refers to a professional&apos;s long-term commitment to improving their 
 skills and proficiency.
  </p>
@@ -226,7 +227,8 @@ skills and proficiency.
       <h5 style={{color:"#203546",fontWeight:"700",textAlign:""}}> 
       Updated Resume:
 </h5>
-      <p style={{color:"#666"}}>You must upload your most recent Curriculum Vitae/
+      <p style={{color:"#666"}}>You must upload your most <a href="https://www.cdrassessmenthelp.com/services/professional-resume-writing-australia
+" rel="dofollow">recent Curriculum Vitae</a>
 Resume with your Stage 2 Competency Assessment for 
 chartered membership of Engineers Australia. Include 
 both your most recent work experience and the one you 

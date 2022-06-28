@@ -11,9 +11,10 @@ const ResumeWriting = () => {
   const router = useRouter()
   const canonicalUrl = (`https://cdrassesmenthelp.com` + (router.asPath === "/" ? "": router.asPath)).split("?")[0];
 
-  const dataList=[{image:`/images/resume/1.png`,title:`Use of Australian English Language`,data:`All detailed information included in the Resume 
-  Writing for CDR Report should be in the Australian 
-  language, as per Engineer Australia.`,alt:`Use of Australian English Language`},{image:`/images/resume/2.png`,title:`Appropriate use of keywords`,data:`Include the keywords that identify you and your 
+  const dataList=[{image:`/images/resume/1.png`,title:`Use of Australian English Language`,data:<div>All detailed information included in the Resume 
+  Writing for <a href="https://www.cdrassessmenthelp.com/faq
+" rel="dofollow"> CDR Report should be in the Australian 
+  language,</a> as per Engineer Australia.</div>,alt:`Use of Australian English Language`},{image:`/images/resume/2.png`,title:`Appropriate use of keywords`,data:`Include the keywords that identify you and your 
   profession and job function while writing your 
   CDR resume for Engineers Australia.`,alt:`Appropriate use of keywords`},{image:`/images/resume/3.png`,title:`Do not mention irrelevant information`,data:`Avoid unnecessary details and only state what EA 
   is looking for and what is needed. Submission of 
@@ -44,14 +45,15 @@ const ResumeWriting = () => {
   writing for EA. While writing a CDR Resume personal 
   data should be presented clearly and appropriately to 
   receive a good assessment from EA.`,alt:`Personal Information`}
-,{image:`/images/resume/10.png`,title:`Make it Professional`,data:`Resume should be written in proper format; if 
+,{image:`/images/resume/10.png`,title:`Make it Professional`,data:<div>Resume should be written in proper format; if 
 your CDR Resume is in the proper setup, you will 
 have the best chance of acceptance from EA. We 
 have already written a high-Quality CDR Resume. 
-Our Professional writers from an engineering 
+Our <a href="https://www.cdrassessmenthelp.com/services/cdr-reviewing-australia
+" rel="dofollow"> Professional writers from an engineering 
 background with years of experience in CDR 
-writing make CDRskillassessment the best 
-resume writing service provider in Australia.`,alt:`Make it Professional`}]
+writing </a> make CDRskillassessment the best 
+resume writing service provider in Australia.</div>,alt:`Make it Professional`}]
 
 const  schemaData= {
   "@context": "http://schema.org",
@@ -95,13 +97,14 @@ const  schemaData= {
             <Col md={5} className="py-5 pe-5">
                 <Headings title="Writing CDR Resume for 
 Engineers Australia" align="potato"/>
-<Paragraphs data="Reduce your chance of getting rejected by Engineers Australia 
+<Paragraphs data= { <div>Reduce your chance of getting rejected by Engineers Australia 
 to 0%. Expert writers with years of experience in CDR Resume 
-writing will make your CDR report professional. 
+writing will <a href="https://www.cdrassessmenthelp.com/services
+" rel="dofollow">make your CDR report professional.</a> 
 Our team of expert writers are ready to assist you; you are just 
-a click away.
+a click away. </div>}
 
-      " align="potato"/>
+      align="potato"/>
             
 <div className='py-3'>
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",color:"#fff",borderRadius:"4px",border:"none"}}>
@@ -217,14 +220,16 @@ in Australia.
     </Row>
 
     <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='px-0 pt-5 ms-0'>CDRassessmenthelp’s professional CDR resume writing service ensures approval from EA</h3>
-    <p tyle={{color:"#666"}}>Resume writing is an essential component of the CDR Report. Thus, any Engineering Applicants who wish to travel to Australia via 
+    <p tyle={{color:"#666"}}>Resume writing is an <a href="https://www.cdrassessmenthelp.com/services/summary-statement-writing-australia
+" rel="dofollow"> essential component of the CDR Report.</a> Thus, any Engineering Applicants who wish to travel to Australia via 
 CDR Skill Assessment must write a high-quality CDR resume that makes a favourable impression on Engineers Australia.
 Writing a 
 high-quality CDR resume is such laborious work for novice writers or applicants that there is a significant chance of making a 
 catastrophic error and getting rejected by Engineers Australia. Keeping this in mind, CDRskillassessment will assist you with CDR 
 resume writing for Engineers Australia. <br/>
 We have a team of expert writers who can provide resume writing services at very low pricing. From our years of experience, we 
-prepare flawless resumes. Engineers Australia (EA) has already Approved our CDR reports, and many engineering Applicants are
+prepare flawless resumes.<a href="https://www.cdrassessmenthelp.com/pricing
+" rel="dofollow"> Engineers Australia (EA) has already Approved our CDR reports</a>, and many engineering Applicants are
 happy with our services; please stay connected with us for CDR Resume writing help.
 </p>
 

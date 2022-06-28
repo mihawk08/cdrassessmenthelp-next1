@@ -2,9 +2,10 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 
 const Help = () => {
-    const dataList=[{image:`/images/services/freecdr.png`,title:`Plagiarism-free CDR Report`,data:`Engineers Australia does not tolerate plagiarized 
-    content in skill assessment. Take professionals to 
-    help in writing flawless CDR.`,alt:`Plagiarism free cdr report`},{image:`/images/services/star.png`,title:`Experienced CDR Writers`,data:`CDR writing professionals will help you to 
+    const dataList=[{image:`/images/services/freecdr.png`,title:`Plagiarism-free CDR Report`,data:<div>Engineers Australia does not tolerate <a href="https://www.cdrassessmenthelp.com/services/plagiarism-checking-and-removal
+    " rel="dofollow"> plagiarized 
+    content in skill assessment.</a> Take professionals to 
+    help in writing flawless CDR.</div>,alt:`Plagiarism free cdr report`},{image:`/images/services/star.png`,title:`Experienced CDR Writers`,data:`CDR writing professionals will help you to 
     demonstrate engineering skills and knowledge 
     for positive assessment from Engineers Australia.`,alt:`Experienced CDR Writers`}
     ,{image:`/images/services/truck.png`,title:`Delivery at the promised time`,data:`We help you in writing CDR based on your career 
@@ -12,9 +13,10 @@ const Help = () => {
     assessment of Engineers Australia. `,alt:`Delivery at the promised time`},{image:`/images/services/notes.png`,title:`Positive Skill Assessment`,data:`Writers from engineering backgrounds with 
     years of experience in CDR writing services 
     will help in writing CDR for positive skill
-     assessment by Engineers Australia.`,alt:`Positive Skill Assessment`},{image:`/images/services/dollar.png`,title:`Reasonable price range`,data:`Superior CDR writing help at the most reasonable 
+     assessment by Engineers Australia.`,alt:`Positive Skill Assessment`},{image:`/images/services/dollar.png`,title:`Reasonable price range`,data: <div> <a href="https://www.cdrassessmenthelp.com/services/cdr-writing-service-australia
+     ">Superior CDR writing help </a> at the most reasonable 
      price. Prepare flawless CDR reports at an affordable 
-     rate.`,alt:`Reasonable price range`}
+     rate.</div>,alt:`Reasonable price range`}
 ,{image:`/images/services/badge.png`,title:`Genuine CDR Content`,data:`Take professionals to help in writing flawless 
 CDR. Engineers Australia does not tolerate 
 copied content in skill assessment.`,alt:`Genuine CDR Content`}]
@@ -23,7 +25,8 @@ copied content in skill assessment.`,alt:`Genuine CDR Content`}]
         <Container>
         <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='px-md-5 pt-5 pb-3'>Guaranteed skill assessment from 
 EA with CDR writing help. </h3>
-      <p style={{color:"#666"}} className='px-md-5 pb-4' >Positive skill assessment of CDR depends on various 
+      <p style={{color:"#666"}} className='px-md-5 pb-4' ><a href="https://www.cdrassessmenthelp.com/services/plagiarism-checking-and-removal
+" rel="dofollow">Positive skill assessment of CDR</a> depends on various 
 factors while writing. Most of all presentation of 
 engineering skills and knowledge in the right format 
 and structure is important  </p>

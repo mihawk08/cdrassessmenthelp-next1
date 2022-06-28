@@ -142,12 +142,17 @@ competency element has been met. These Indicators define and detail the many met
 element.<br/>
 Each competency is made up of elements that explain a specific performance area. The three elements are the Engineers Australia 
 membership requirement and essential actions that make up the Stage 1 Competency Assessment.<br/><br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 1.	Competency 1: Knowledge Base.<br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 2.	Competency 2: Engineering Ability.<br/>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 3.	Competency 3: Professional Attributes.<br/><br/>
-CDR assessment help offers a variety of CDR samples that meet Engineers Australia membership requirements and are eligible for examination 
+<div className='ps-5'>
+       1.	Competency 1: Knowledge Base.<br/>
+         2.	Competency 2: Engineering Ability.<br/>
+         3.	Competency 3: Professional Attributes.<br/><br/>
+         </div>
+CDR assessment help offers a variety of <a href="https://www.cdrassessmenthelp.com/cdr-sample
+" rel="dofollow"> CDR samples that meet Engineers Australia membership requirements </a> and are eligible for examination 
 for membership with Engineers Australia. Engineers Australia just approved all of our CDR samples, ensuring they meet EA standards. 
-These samples comprise three narratives, a summary statement, and a CPD, and they are written in a high style yet simple language 
+These samples comprise three narratives, <a href="https://www.cdrassessmenthelp.com/services/summary-statement-writing-australia
+" rel="dofollow"> a summary statement,</a> <a href="https://www.cdrassessmenthelp.com/services/cpd-writing-australia
+" rel="dofollow"> and a CPD,</a> and they are written in a high style yet simple language 
 that is easy to modify.
 </p>
 

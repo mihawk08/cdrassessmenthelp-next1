@@ -37,8 +37,11 @@ GET INSTANT HELP
 
 
 <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-md-5 pb-3'>Writing Career episodes for positive skill assessment from Engineers Australia</h3>
-<p style={{color:"#666",}}>Career episode report writing is an important aspect of Skill assessment for Engineers Australia. The most critical aspect of CDR 
-authoring is the Career Episodes report writing. Making an impact on Engineers Australia requires more thought and effort. The writing 
+<p style={{color:"#666",}}>Career episode report writing is an important aspect of <a href="https://www.cdrassessmenthelp.com/services/stage-1-competency-assessment-australia
+" rel="dofollow">Skill assessment for Engineers Australia.</a> The most <a href="https://www.cdrassessmenthelp.com/services/plagiarism-checking-and-removal
+" rel="dofollow">critical aspect of CDR 
+authoring </a> is the Career Episodes report writing. Making an <a href="https://www.cdrassessmenthelp.com/services/cdr-reviewing-australia
+" rel="dofollow">impact on Engineers </a> Australia requires more thought and effort. The writing 
 of a Career Episode report is based on three different projects done during your last year of engineering, an internship program, or work-
 related responsibilities. <br/>
 Based on your professional experiences, our experienced team provides Career Episode Writing Service in Australia, assisting you to 

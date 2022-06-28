@@ -91,15 +91,19 @@ GET INSTANT HELP
 <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4'>Plagiarism Checking and removing services for positive skill assessment of CDR from Engineers Australia.</h3>
 
 <div className='py-2 px-0'>
-<p style={{color:"#666"}}  className='pe-md-5'>Engineering applicants in Australia write CDR without the help of a plagiarism checking and removing service provider and may unintentionally 
+<p style={{color:"#666"}}  className='pe-md-5'><a href="https://www.cdrassessmenthelp.com/
+" rel="dofollow"> Engineering applicants in Australia write CDR </a> without the help of a plagiarism checking and removing service provider and may unintentionally 
 utilise plagiarised material and data.  Plagiarism is using someone else’s original content and idea as your own without proper credit to the
 creator. Engineers Australia does not tolerate plagiarised content in the CDR submitted. Plagiarised content in CDR may result in a ban by EA.
 As per the Migration Skilled Assessment (MSA) booklet published by Engineers Australia, plagiarism is not allowed in the CDR report.  Copying 
-data, information, or other material from books, websites, journals, magazines, digital platforms, CDR samples available online and offline, or 
+data, information, or other material from books, websites, journals, magazines, digital platforms, <a href="https://www.cdrassessmenthelp.com/cdr-sample
+" rel="dofollow"> CDR samples available online </a> and offline, or 
 previously submitted CDRs with plagiarism is strictly prohibited by Engineers Australia. 
-We have dedicated engineering teams with years of experience in CDR plagiarism checking and removing services in Australia. Our experts 
-will walk you through the process and ensure a high approval rate from Engineers Australia. We provide high-quality non-plagiarized CDR 
-reports. 
+We have <a href="https://www.cdrassessmenthelp.com/services
+" rel="dofollow"> dedicated engineering teams with years of experience in CDR plagiarism checking and removing services in Australia.</a> Our experts 
+will walk you through the process and ensure a high approval rate from Engineers Australia. We provide <a href="https://www.cdrassessmenthelp.com/services/cdr-writing-service-australia
+" rel="dofollow"> high-quality non-plagiarized CDR 
+reports.</a> 
 </p>
 </div>
      

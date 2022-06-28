@@ -33,11 +33,12 @@ const ANZSCOcode = () => {
        <Headings title="Get CDR writing help for 
 ensured positive skill
 assessment from EA" align="left"  />   
-<Paragraphs  data='We provide CDR writing help for engineers pursuing 
-a career in Australia through skill assessment. We 
+<Paragraphs  data={<div>We provide <a href="https://www.cdrassessmenthelp.com/services/cdr-writing-service-australia
+" rel="dofollow">CDR writing help for engineers pursuing 
+a career in Australia</a> through skill assessment. We 
 guarantee positive skills assessment from EA with 
 a variety of services we provide regarding CDR 
-writing.' align="left"/>
+writing.</div>} align="left"/>
 <div className='py-3'>
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
 CONTACT US
@@ -224,10 +225,12 @@ names for popular Engineering professions in Australia..</p>
 <h3 style={{color:"#203546",fontWeight:"700",textAlign:""}} className='pt-4'>ANZSCO Code define work duties for all engineering professions in Australia and 
 New Zealand</h3>
 <p style={{color:"#666",textAlign:""}}>All engineering professions in Australia and New Zealand are defined by the Australian and New Zealand Standard Classification of 
-Engineer&apos;s Occupations (ANZSCO) Codes. When evaluating engineers&apos; migration abilities using CDR, it&apos;s crucial to use the relevant 
+Engineer&apos;s Occupations (ANZSCO) Codes. When <a href="https://www.cdrassessmenthelp.com/services
+" rel="dofollow">evaluating engineers&apos; migration abilities using CDR,</a> it&apos;s crucial to use the relevant 
 ANZSCO Code. This is a technique for gathering, publishing, and evaluating occupational data.
 Engineers interested in working in
-Australia should check their ANZSCO code before advancing to the CDR skilled exam. You can check your eligibility for the applicable 
+Australia should <a href="https://www.cdrassessmenthelp.com/services/cdr-reviewing-australia
+" rel="dofollow"> check their ANZSCO code before advancing to the CDR skilled exam.</a> You can check your eligibility for the applicable 
 engineering stream by using the ANZSCO code supplied below. When you choose the correct ANZSCO code, the Medium and Long-
 Period Strategic Skill List (MLTSS) and the Short-Term Skilled Occupation List (STSOL) will appear, allowing you to determine which 
 term your occupation falls under according to Engineers Australia.

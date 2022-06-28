@@ -51,12 +51,14 @@ const CEs = () => {
 flawless CDR delivered</h3>
 
 <div className='py-4 px-md-5'>
-<p style={{color:"#666"}} >We offer flawless CDR reports with genuine and 
-plagiarism-free content. Professional writers 
+<p style={{color:"#666"}} >We offer flawless CDR reports with <a href="https://www.cdrassessmenthelp.com/services/plagiarism-checking-and-removal
+" rel="dofollow"> genuine and 
+plagiarism-free content. </a> Professional writers 
 follow the guidelines and format of skill assessment 
 mentioned in EA's MSA booklet while writing the CDR 
-report. Professional writers with years of experience 
-providing help in CDR writing for engineers’ skill 
+report. Professional writers with <a href="https://www.cdrassessmenthelp.com/pricing
+" rel="dofollow">years of experience 
+providing help in CDR writing </a> for engineers’ skill 
 assessment in Australia devote considerable effort 
 to preparing the CDR report. 
 </p>
@@ -108,10 +110,12 @@ from EA</h3>
 
 <div className='py-4 px-md-5'>
 <p style={{color:"#666"}} >Professional writers with years of experience in CDR 
-writing services help engineers to achieve positive 
-skill assessment in Australia. Engineers demonstrate 
+writing services help engineers to achieve <a href="https://www.cdrassessmenthelp.com/services/stage-1-competency-assessment-australia
+" rel="dofollow"> positive 
+skill assessment </a> in Australia. Engineers demonstrate 
 their engineering skills and knowledge through CDR 
-for positive assessment from Engineers Australia.
+for <a href="https://www.cdrassessmenthelp.com/pricing
+" rel="dofollow">positive assessment from Engineers Australia.</a>
 </p>
      
             </div>        

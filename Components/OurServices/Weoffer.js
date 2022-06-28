@@ -8,8 +8,10 @@ const Weoffer = () => {
       <h3 style={{color:"#203546",fontWeight:"700"}} className='px-md-5 py-3'>Guaranteed approval of Skill 
 assessment by EA with CDR writing 
 help</h3>
-      <p style={{color:"#666"}} className='px-md-5'>Engineers demonstrate their engineering skills and knowledge through CDR for positive assessment from EA. Professional writers with 
-years of experience in CDR writing services help engineers to achieve positive skill assessment in Australia. We offer various CDR related 
+      <p style={{color:"#666"}} className='px-md-5'>Engineers demonstrate their engineering skills and knowledge through <a href="https://www.cdrassessmenthelp.com/services/cdr-writing-service-australia
+" rel="dofollow"> CDR for positive assessment from EA.</a> Professional writers with 
+years of experience in <a href="https://www.cdrassessmenthelp.com/services
+" rel="dofollow"> CDR Writing Services.</a> help engineers to achieve positive skill assessment in Australia. We offer various CDR related 
 services.</p>
      
 

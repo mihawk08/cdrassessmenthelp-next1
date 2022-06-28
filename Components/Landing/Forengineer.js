@@ -55,11 +55,13 @@ const Forengineer = () => {
              <Headings title="Professional help in CDR
  writing ensures positive skill 
 assessment from EA" align="left"  />   
-<Paragraphs  data='Professional writers with years of experience in 
-CDR writing services help engineers to achieve 
+<Paragraphs  data={<div> Professional writers with years of experience in 
+  <a href="https://www.cdrassessmenthelp.com/services
+" rel="dofollow"> CDR Writing Services</a> help engineers to achieve 
 positive skill assessment in Australia. Engineers 
 demonstrate their engineering skills and knowledge 
-through CDR for positive assessment from EA.' align="left"/>
+through <a href="https://www.cdrassessmenthelp.com/services/cdr-writing-service-australia
+" rel="dofollow">CDR for positive assessment from EA.</a></div>} align="left"/>
 <Button href='/contact-us' style={{backgroundColor:"#970012",fontWeight:"600",marginRight:"10px",border:"none"}}>
   CONTACT US
 </Button>
